@@ -15,7 +15,7 @@ const int btrate = 9600;
 //const int btrate = 38400;
 
 bool debug = false;
-bool command_mode = true;
+bool command_mode = false;
 
 // Power usage when supplied with 3.6 V: 38 mA with these settings. 
 int gauge_sleep = 0;
